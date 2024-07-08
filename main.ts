@@ -45,7 +45,7 @@ function movie(name: string, releaseyear?: number) {
 
   return `This movie name is ${name}`;
 
-  // }
+  }
 
   console.log(movie("Avengers", 2019));
 
@@ -73,7 +73,7 @@ function movie(name: string, releaseyear?: number) {
   (function (y: string) {
     console.log(y);
   })("i am immediately invoked function");
-}
+
 
 (function (y: number, z: number) {
   console.log(y + z);
